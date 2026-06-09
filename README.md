@@ -6,9 +6,10 @@ Analysed IPL cricket data using MySQL. Wrote queries from scratch to uncover per
 
 | File | Description |
 |---|---|
-| `ipl_setup.sql` | Database schema + sample data for all 5 tables |
-| `ipl_analysis.sql` | All analysis queries organised by topic |
-
+| `ipl_dataset.sql` | Database schema + sample data for all 5 tables |
+| `query's_on_ipl_dataset.sql` | All analysis queries organised by topic |
+| `query's2_on_ipl_dataset.sql` | All analysis queries organised by topic |
+| `query's3_on_ipl_dataset.sql` | All analysis queries organised by topic |
 ## 🗃️ Database Structure
 
 5 tables — `teams`, `players`, `matches`, `batting_scorecard`, `bowling_scorecard`
@@ -32,8 +33,8 @@ Analysed IPL cricket data using MySQL. Wrote queries from scratch to uncover per
 
 ## 🚀 How to Run
 
-1. Run `ipl_setup.sql` to create the database and insert data
-2. Run any query from `ipl_analysis.sql`
+1. Run `ipl_dataset.sql` to create the database and insert data
+2. Run any query from `query's_on_ipl_dataset`,`query's2_on_ipl_dataset`,`query's3_on_ipl_dataset`
 
 ---
 
